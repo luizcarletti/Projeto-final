@@ -35,7 +35,7 @@ body {
 
 header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-content: center;
   background-color: var(--destaque);
   color: var(--texto);
@@ -279,6 +279,10 @@ footer a:hover {
 @media screen and (min-width: 768px) {
   main {
     grid-template-columns: auto 300px 1fr auto;
+  }
+
+  header {
+    justify-content: flex-end;
   }
 
   section#ficha {
