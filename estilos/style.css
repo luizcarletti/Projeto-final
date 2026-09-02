@@ -322,4 +322,8 @@ footer a:hover {
     width: 60vw;
     margin: auto;
   }
+
+  section#detalhes {
+    margin-top: 38px;
+  }
 }
